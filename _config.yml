@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
+title: Switch-!t
+email: switchitracing@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+instagram_username: switchit-racing
+discord_servername: Switch !t
 
 # Build settings
 markdown: kramdown
