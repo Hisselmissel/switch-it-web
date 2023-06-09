@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-instagram_username: switchit-racing
+instagram_username: switchit_racing
 discord_servername: Switch !t
 
 # Build settings
