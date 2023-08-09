@@ -1,9 +1,9 @@
 # Site settings
-title: Switch-!t
+title: Switch-it
 email: switchitracing@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://switch-it-racing.de" # the base hostname & protocol for your site
 
 instagram_username: switchit_racing
 discord_servername: Switch !t
