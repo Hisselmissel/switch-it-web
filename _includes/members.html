@@ -1,0 +1,20 @@
+<section class="bg-dark" class="no-padding" id="drivers">
+    <div class="container-fluid">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h1 class="section-heading">Fahrer</h1>
+            <hr class="light">
+
+            <div class="row no-gutter">
+                {% for image in site.static_files %}
+                    {% if image.path contains 'img/drivers' %}
+                    <div class="col-lg-4 col-sm-6 gap">
+                        <a class="driver-box">
+                            <img src="{{ site.baseurl }}{{ image.path }}" class="img-responsive" alt="Switch it gallery image 2">
+                        </a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
