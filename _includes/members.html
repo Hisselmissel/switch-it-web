@@ -7,9 +7,9 @@
             <div class="row no-gutter">
                 {% for image in site.static_files %}
                     {% if image.path contains 'img/drivers' %}
-                    <div class="col-lg-4 col-sm-6 gap">
+                    <div class="col-lg-3 col-sm-4 col-xs-6 gap">
                         <a class="driver-box">
-                            <img src="{{ site.baseurl }}{{ image.path }}" class="img-responsive" alt="Switch it gallery image 2">
+                            <img src="{{ site.baseurl }}{{ image.path }}" class="img-responsive" alt="Switch it gallery image">
                         </a>
                     </div>
                     {% endif %}

@@ -225,9 +225,15 @@ header {
 .driver-box {
     position: relative;
     display: block;
-    max-width: 650px;
     margin: 0 auto;
     padding: 10px;
+    img {
+        width: 100%; 
+        height: auto;
+        box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.8)  ; 
+        -webkit-box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.8)  ; 
+        -moz-box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.8)  ; 
+    }
     .driver-box-caption {
         color: white;
         opacity: 0;
